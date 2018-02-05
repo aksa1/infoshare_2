@@ -9,4 +9,3 @@ if is_even:
 #else: sprawdz czy jest nieparzysta?
 #print('liczba nie jest parzysta')
 #print('liczba jest nieparzysta')
-
