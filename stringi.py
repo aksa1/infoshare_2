@@ -1,0 +1,12 @@
+a=1
+b=2
+result=a+b
+print(result)
+result=a-b
+print(result)
+result=a*2
+print(result)
+result=c/b
+print(result)
+result=c//b
+print(result)
