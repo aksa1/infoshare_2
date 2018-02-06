@@ -1,5 +1,8 @@
 digit = input('Podaj liczbe: ')
 #zeby otrzymac ze stringa integera -> skonwertowac na integera
+
+
+
 digit = int(digit)
 
 #@ todo: sprawdz czy liczba jest parzysta
