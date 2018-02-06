@@ -3,9 +3,8 @@ digit = input('Podaj liczbe: ')
 digit = int(digit)
 
 #@ todo: sprawdz czy liczba jest parzysta
-if is_even:
+if digit % 2 == 0:
     print('liczba jest parzysta')
 #@ todo: w przeciwnym przypadku wyświetl 'liczba jest nieparzysta' PRACA DOMOWA
-#else: sprawdz czy jest nieparzysta?
-#print('liczba nie jest parzysta')
-#print('liczba jest nieparzysta')
+else:
+    print('liczba nie jest parzysta')
