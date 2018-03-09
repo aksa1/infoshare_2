@@ -46,10 +46,7 @@ def show_user_by_name(user_name):
                 print("{}: {}".format(key, data[key]))
 
 def add_user(user_id=None):
-""" dodaje lub modyfikuje istniejacego usera
-domyslnie przyjmujemy puste id jesli modyfikujemy istniejacego usera to
-jego id nie ulega zmianie
-"""
+
     if user_id:
         data = phonebook[user_id]
         show_user(user_id)
